@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 // grab DOM elements
 
 // set event listeners
