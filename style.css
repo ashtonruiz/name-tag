@@ -39,19 +39,20 @@ input {
 }
 
 button {
-    height: 30px;
-    width: 120px;
-    font-size: 20px;
-    font-weight: bold;
     font-family: 'Metal Mania', cursive;
+    font-size: 22px;
     text-align: center;
+    height: 45px;
+    width: 90px;
+    margin: 5px;
 }
+
 .name-tag {
     margin-top: 20px;
     width: 400px;
     height: 250px;
     background: rgb(0, 0, 0);
-    color: white;
+    color:rgb(202, 199, 199);
     text-align: center;
     font-family: 'Metal Mania', cursive;
 }
@@ -73,5 +74,22 @@ h2 {
     font-size: 30px;
     font-family: 'Metal Mania', cursive;
 }
+
+
+.bio-list {
+    background:rgb(0, 0, 0);
+    font-family: 'Metal Mania', cursive;
+    color:rgb(202, 199, 199);
+    width: 400px;
+    margin: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.destination {
+    background:rgb(134, 125, 125);
+    color:rgb(0, 0, 0);
+}
+
 
 
