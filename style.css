@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans',
         'Bitstream Vera Sans', 'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
-    background: rgb(224, 234, 247);
+    background: rgb(223, 201, 187);
     display: grid;
     grid-template-rows: auto 1fr;
 }
@@ -17,7 +17,7 @@ header {
     align-items: center;
     gap: 10px;
 
-    background-color: rgb(254, 251, 245);
+    background-color: rgb(245, 200, 76);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
@@ -27,4 +27,37 @@ header .logo {
 
 main {
     padding: 20px;
+}
+
+input {
+    height: 29px;
+}
+
+button {
+    height: 35px;
+    padding: 10px;
+    margin: 10px;
+}
+.name-tag {
+    margin-top: 30px;
+    width: 400px;
+    height: 250px;
+    background: rgb(179, 169, 125);
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+.name-display {
+    background: white;
+    color: black;
+    font-size: 30px;
+    font-family: 'Bungee Spice', cursive;
+}
+
+.intro {
+    font-size: 30px;
 }
